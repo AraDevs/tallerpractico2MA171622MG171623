@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_nav.xml"
+    app:startDestination="@id/medicine_list_fragment">
+    <fragment
+        android:id="@+id/medicine_list_fragment"
+        android:name="com.aradevs.taller_practico_2_ma171622_mg171623.views.medicine_list.MedicineListFragment"
+        android:label="medicine_list_fragment"
+        tools:layout="@layout/medicine_list_fragment">
+        <action
+            android:id="@+id/action_medicine_list_to_detail"
+            app:destination="@id/medicine_detail_fragment" />
+        <action
+            android:id="@+id/action_medicine_list_to_shopping_cart"
+            app:destination="@id/shopping_cart_fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/medicine_detail_fragment"
+        android:name="com.aradevs.taller_practico_2_ma171622_mg171623.views.medicine_detail.MedicineDetailFragment"
+        android:label="medicine_detail_fragment"
+        tools:layout="@layout/medicine_detail_fragment">
+        <argument
+            android:name="medicine"
+            app:argType="com.aradevs.domain.Product" />
+    </fragment>
+    <fragment
+        android:id="@+id/shopping_cart_fragment"
+        android:name="com.aradevs.taller_practico_2_ma171622_mg171623.views.shopping_cart.ShoppingCartFragment"
+        android:label="shopping_cart_fragment"
+        tools:layout="@layout/shopping_cart_fragment" />
+    <fragment
+        android:id="@+id/purchase_history_fragment"
+        android:name="com.aradevs.taller_practico_2_ma171622_mg171623.views.purchase_history.PurchaseHistoryFragment"
+        android:label="purchase_history_fragment"
+        tools:layout="@layout/purchase_history_fragment" >
+        <action
+            android:id="@+id/action_history_list_to_detail"
+            app:destination="@id/medicine_detail_fragment" />
+    </fragment>
+    <!--
+    <fragment
+        android:id="@+id/purchase_history_fragment"
+        android:name="com.aradevs.desafio01_ma171622_mg171623.ui.e2.E2Fragment"
+        android:label="fragment_e2"
+        tools:layout="@layout/fragment_e2" />-->
+
+</navigation>

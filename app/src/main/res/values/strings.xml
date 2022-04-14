@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">MedHelp</string>
+    <string name="medicine_placeholder_image">Medicine placeholder image</string>
+    <string name="sample_medicine">Amoxicillin</string>
+    <string name="sample_price">$8.99</string>
+    <string name="medicines">Medicamentos</string>
+    <string name="purchase_history">Historial de compras</string>
+    <string name="lorem_ipsum">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</string>
+    <string name="add_to_cart">Agregar al carrito</string>
+    <string name="back_button">Back button</string>
+    <string name="open_cart_icon">Open cart icon</string>
+    <string name="my_cart">Mi Carrito</string>
+    <string name="purchase_total_example">Total a pagar: $5.00</string>
+    <string name="empty_string">- - -</string>
+    <string name="place_order">Realizar orden</string>
+    <string name="delete_item">Delete item</string>
+    <string name="previously_purchased_medicine">Medicamentos adquiridos anteriormente</string>
+    <string name="previously_purchased_template">Comprados anteriormente: %1$s</string>
+    <string name="successfully_added_to_cart">Agregado al carrito exitosamente</string>
+    <string name="product_already_in_cart">Este producto ya esta en tu carrito</string>
+    <string name="error_fetching_data">Error al obtener la infomacion :(</string>
+    <string name="amount_to_pay">Precio a pagar: $%1$s</string>
+    <string name="order_added_sucessfully">Orden agregada con exito</string>
+</resources>
