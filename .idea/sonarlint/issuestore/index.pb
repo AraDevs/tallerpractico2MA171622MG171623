@@ -49,7 +49,5 @@ b
 Pstoragemanager/src/main/java/com/aradevs/storagemanager/data_handling/Mappers.kt,e\5\e5b4ddd61ecb1ad5e5cdef4faffbd7c7eac8f9f3
 ¤
 tapp/src/main/java/com/aradevs/taller_practico_2_ma171622_mg171623/views/purchase_history/PurchaseHistoryViewModel.kt,4\f\4fa0f5a0089365934c79c1d00069699a8e510c68
-P
- app/src/main/AndroidManifest.xml,8\c\8c55c3ccc257e5907959013f99656e4c8ec3903e
 …
 Uapp/src/main/java/com/aradevs/taller_practico_2_ma171622_mg171623/utils/Extensions.kt,d\3\d3a615ef32f33ffb12e23d035201670775b69c88
